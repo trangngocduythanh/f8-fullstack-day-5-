@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form class="form" action="" autocomplete="on">
+                <h1 class="form-heading">Register</h1>
+                <div class="form-group">
+                    <label for="display-name" class="form-label">
+                        Display Name
+                    </label>
+                    <input
+                        type="text"
+                        name=""
+                        id="display-name"
+                        class="form-input"
+                        placeholder="Display name..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                        type="email"
+                        name=""
+                        id="email"
+                        class="form-input"
+                        placeholder="Email..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="phone-number" class="form-label">
+                        Phone Number
+                    </label>
+                    <input
+                        type="tel"
+                        name=""
+                        id="phone-number"
+                        class="form-input"
+                        placeholder="Phone number..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password" class="form-label">
+                        Confirm Password
+                    </label>
+                    <input
+                        type="password"
+                        name=""
+                        id="confirm-password"
+                        class="form-input"
+                        placeholder="Confirm password..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label class="form-label"> Gender </label>
+                    <label>
+                        <input type="radio" name="gender" value="male" />
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female" />
+                        Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other" />
+                        Other
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date-of-birth" class="form-label">
+                        Date of birth
+                    </label>
+                    <input type="date" name="" id="date-of-birth" />
+                </div>
+                <div class="form-group">
+                    <label for="address" class="form-label"> Address </label>
+                    <input
+                        type="password"
+                        name=""
+                        id="address"
+                        class="form-input"
+                        placeholder="Address..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="profile-picture" class="form-label">
+                        Profile picture
+                    </label>
+                    <label for="profile-picture">
+                        <img
+                            width="200px"
+                            src="./img/img-avt-placeholder.png"
+                            alt=""
+                            class="avatar-img"
+                        />
+                    </label>
+                    <input type="file" id="profile-picture" hidden />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">
+                        Communication Preferences
+                    </label>
+                    <div class="form-vertical">
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="gender"
+                                value="newsletter"
+                            />
+                            Subscribe to Newsletter
+                        </label>
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="gender"
+                                value="emails"
+                            />
+                            Receive Promotional Emails
+                        </label>
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="gender"
+                                value="updates"
+                            />
+                            Get Product Updates
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group form-footer">
+                    <button class="btn submit-btn">Register</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -11,6 +11,19 @@ body {
     background-color: #a47673;
 }
 
+body:has(.form) {
+    background: #088176;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* CV */
 .cv {
     padding: 26px 70px;
     width: 1000px;
@@ -72,4 +85,78 @@ body {
 .bottom-paper {
     font-size: 16px;
     padding-top: 16px;
+}
+
+/* Form */
+.form {
+    max-width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.form-heading {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #088176;
+}
+
+.form label {
+    color: #bebebe;
+    font-size: 14px;
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 4px;
+    font-weight: 600;
+}
+
+.form-input {
+    width: 100%;
+    padding: 3px 6px;
+    border: 1px solid gray;
+    border-radius: 99px;
+    outline: none;
+}
+
+.form-input::placeholder {
+    color: #bababa;
+}
+
+.avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.form-vertical label {
+    display: block;
+}
+
+.form-footer {
+    margin-top: 30px;
+}
+
+.form .submit-btn {
+    width: 100%;
+    background: #088176;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 4px 16px 6px;
+    min-width: 120px;
+    background-color: #0093fc;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
 }
